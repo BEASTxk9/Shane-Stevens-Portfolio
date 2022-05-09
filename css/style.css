@@ -32,7 +32,6 @@ header{
 
 main{
     z-index: -1;
-    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
     font-family: 'Domine', serif;
     font-size: 19px;
 }
@@ -44,6 +43,8 @@ main{
 
 /*nav*/
 nav{
+    color: black;
+    font-size: 16px;
 background: rgba(247, 201, 115, 0.22);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -58,9 +59,7 @@ nav:hover{
 
 a:link{
        text-align: right;
-				color: black;
 				text-decoration: none;
-				font-size: 15px;
 				font-weight: bold;
                 padding: 5px;
 }
@@ -123,7 +122,6 @@ input:checked:after{
 				background-size: cover;
 				background-attachment: fixed;
 				opacity: 0.8;
-                overflow-x: hidden;
 }
 
 #social-links-container{
@@ -132,8 +130,7 @@ input:checked:after{
 }
 
 #social-links{
-
-				font-size: 24px;
+				font-size: 25px;
 				transition: 1s ease-in-out;
 				color: black;
                 
@@ -145,6 +142,12 @@ input:checked:after{
 				border-radius: 3px;
 				
 }
+
+#aboutlink{
+    font-size: 30px;
+    animation:move 4s ease-in-out infinite;
+}
+
 
 /*text edit*/
 #landing-text{
@@ -189,7 +192,7 @@ input:checked:after{
         transform:translateX(0%);
     }
     50%{
-        color: aqua;
+        color: black;
         text-shadow:0 10px 20px rgba(0,0,0,3);
     }
     100%{
@@ -201,12 +204,13 @@ input:checked:after{
 /* image editor */
 #me3{
     z-index: -1;
-    opacity: 0.9;
     border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* timeline */
 #timeline-sec {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
     border-left: 3px solid aqua;
     padding-left: 20px;
     position: relative;
