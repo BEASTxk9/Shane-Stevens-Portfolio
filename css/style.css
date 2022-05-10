@@ -106,6 +106,74 @@ main{
     z-index: -1;
 }
 
+/* resume */
+
+/* timeline */
+#timeline-sec {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border-left: 3px solid aqua;
+    padding-left: 20px;
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  #timeline-sec:before {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 3px solid aqua;
+    border-radius: 50%;
+    background-color: orange;
+  }
+
+/* projects */
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.projectimg{
+    width: 40%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    transition: 1s ease-in-out;
+}
+
+.projects-container img {
+    max-height: 400px;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.projectimg:hover{
+    box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
+    transition: 1s ease-in-out;
+  }
+
+
+/* testimonials */
+#card{
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
+    border-radius: 20px;
+    box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
+    gap: 5px;
+
+}
+
+#card-img{
+    height: 60%;
+    width: 40%;
+    border-radius: 360px;
+}
+
 /*nav*/
 nav{
     color: black;
@@ -273,24 +341,4 @@ input:checked:after{
     opacity: 0.8;
 }
 
-/* timeline */
-#timeline-sec {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
-    border-left: 3px solid aqua;
-    padding-left: 20px;
-    position: relative;
-    border-radius: 20px;
-  }
-  
-  #timeline-sec:before {
-    position: absolute;
-    left: -10px;
-    top: 0;
-    display: block;
-    content: "";
-    width: 20px;
-    height: 20px;
-    border: 3px solid aqua;
-    border-radius: 50%;
-    background-color: orange;
-  }
+
