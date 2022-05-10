@@ -155,6 +155,7 @@ main{
 }
 
 .projectimg:hover{
+    width: 50%;
     box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
     transition: 1s ease-in-out;
   }
@@ -167,9 +168,15 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(7.7px);
 -webkit-backdrop-filter: blur(7.7px);
     border-radius: 20px;
-    box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     gap: 5px;
+    transition:all 1s ease-in-out;
+}
 
+#card:hover{
+    transition:all 1s ease-in-out;
+    transform: translateX(5px) translateY(-20px);
+    box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
 }
 
 #card-img{
@@ -343,6 +350,11 @@ input:checked:after{
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
     opacity: 0.8;
+    transition: all 1s ease-in-out;
 }
 
+#me3:hover{
+
+    opacity: 1;
+}
 
