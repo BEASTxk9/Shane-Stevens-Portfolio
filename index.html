@@ -21,44 +21,41 @@
 	<title>Shane Stevens-Portfolio</title>
 </head>
 
-<body>
-	<section id="landing" class="bg-dark text-light vh-100">
-		<header>
+<body>	
+	<header>
+		<section id="landing" class="showcase">
+			<!-- background video -->
+				<div class="video-container">
+					<video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+				</div>
+				<div class="content">
+					<h1 class="landing-heading">WELCOME TO MY PORTFOLIO</h1>
+					<a id="portfolio-link" href="#about" class="btn">Read More</a>
 
-			<div id="landing-text" class="container d-flex justify-content-center align-items-center h-100">
-				<div class="row flex-column py-5">
+					<!-- social-link -->
 					<div>
-						<h1><a id="aboutlink" href="#about"><i class="fa-solid fa-arrow-down">WELCOME TO MY PORTFOLIO</i></a></h1>
+						<a id="social-links" href="https://github.com/BEASTxk9"><i class="fa-brands fa-github"></i></a>
+
+						<a id="social-links" href="https://www.instagram.com/cerberusbeast/?hl=en"><i
+								class="fa-brands fa-instagram"></i></a>
 					</div>
 				</div>
-			</div>
-			</div>
+
+		</section>
+	</header>
 			
 	
-			<!-- social-links -->
-			<div id="social-links-container" class="justify-content-end align-items-end text-end fixed-bottom">
-				<div>
-					<a id="social-links" href="https://github.com/BEASTxk9"><i class="fa-brands fa-github"></i></a>
-				</div>
-				<div>
-					<a id="social-links" href="https://www.instagram.com/cerberusbeast/?hl=en"><i
-							class="fa-brands fa-instagram"></i></a>
-				</div>
-				</div>
-			</div>
-			</div>
 		
-		</header>
-	</section>
+	
 
 
 	<main>
 		<!-- sticky-navbar -->
-		<nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+		<nav class="navbar sticky-top navbar-dark">
 
 			<div>
-				<h3>Shane Stevens
-					<i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i>
+				<h3><a class="logo" href="#landing"><i class="fa-solid fa-house"></i>Shane Stevens<i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i></a>
+				
 				</h3>
 			</div>
 			<!-- button -->
@@ -67,13 +64,15 @@
 				<input type="checkbox">
 			</button>
 
+
+			
+		
+
 			<!-- button content -->
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" >
 				<div class="navbar-nav">
 
 					<!-- a-links -->
-					<a href="#landing">HOME<i class="fa-solid fa-house"></i></a>
-
 					<a href="#about">ABOUT<i class="fa-solid fa-address-card"></i></a>
 
 					<a href="#resume">RESUME<i class="fa-solid fa-book"></i></a>
@@ -84,9 +83,10 @@
 			</div>
 		</nav>
 
+
 		<!-- about -->
 		<section id="about" class="py-4 bg-white text-black">
-			<br>
+			<br><br>
 			<h2 class="heading">About</h2>
 			<div class="container">
 				<div class="row">
@@ -106,15 +106,13 @@
 							<span>Aspiring Web Developer & Designer</span>
 						</div>
 
-						<p>I matriculated in 2021 at Heathfield high school.During my high school years i was part of
-							the athletics team and participated in the A-section inter-school, Semi-champs, Champs of
-							Champs, and Heathfield highs anual 24 Hour Marathon.</p>
-						<p>My hobbies include Esports gaming, Working out, cycling, boxing, base ball, Forex trading and
-							increasing my Japanese knowledge through visual learning.
-						</p>
-						<p>I am very active and hardworking. I have the drive and endurance to take on any challenge for
-							challenges are mearly an opportunity to learn. I am trustworthy, friendly, open minded,
-							respectable and easy to approach.</p>
+					<p>I matriculated in 2021 at Heathfield High School in Cape Town.
+							During my high school years, I was a part of the school’s athletics team
+							where I took part in numerous inter school athletics events as well as the
+							schools own 24 Hour marathon. Some of my hobbies include gaming, exercising,
+							 cycling, playing baseball, learning how to trade and
+							increasing my Japanese knowledge through visual learning.</p>	
+						<p>I am very hardworking and do my best to achieve my goals. I possess the drive and endurance to take on any challenge as I view them as learning opportunities. I am trustworthy, open minded, reputable and approachable.</p>
 
 						<div class="container">
 							<div class="row">
@@ -210,8 +208,8 @@
 		</section>
 
 		<!-- resume -->
-		<section id="resume" class="py-4 justify-content-center">
-			<br>
+		<section id="resume" class="py-4 justify-content-center bg-white text-black">
+			<br><br>
 	<!-- time line -->
 <div class="container">
 	<h2 class="heading">RESUME</h2>
@@ -284,7 +282,7 @@
 
 		<!-- testimonials -->
 		<section id="testimonials" class="bg-dark text-dark py-4">
-			<br>
+			<br><br>
 			<h2 class="heading">TESTIMONIALS </h2>
 
 		</section>
@@ -293,7 +291,7 @@
 	<footer>
 		<!-- contact -->
 		<section id="contact" class="bg-success text-dark py-4">
-			<br>
+			<br><br>
 			<h2 class="heading">CONTACT</h2>
 		</section>
 	</footer>

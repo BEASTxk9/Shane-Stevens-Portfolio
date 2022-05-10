@@ -1,6 +1,7 @@
 *{
 				margin: 0;
 				padding: 0;
+                scroll-behavior: smooth;
 }
 
 /* AOS z-index fix */
@@ -18,9 +19,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap');
 
 /* html~skeleton */
-body{
-				background-color: black;
-}
 
 html{
 				overflow-x: hidden;
@@ -37,6 +35,73 @@ main{
 }
 
 /*sections*/
+
+/* landing */
+.showcase {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.video-container {
+	position: fixed;
+    z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.video-container:after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.content {
+	z-index: 2;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	color: black;
+    background-color: white;
+	border-radius: 5px;
+	border: solid #fff 2px;
+	margin-top: 25px;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+    color: antiquewhite;
+    background-color: black;
+    text-decoration-color: white;
+}
+
+
+/* about */
 #about{
     z-index: -1;
 }
@@ -45,14 +110,16 @@ main{
 nav{
     color: black;
     font-size: 16px;
-background: rgba(247, 201, 115, 0.22);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(4.8px);
 -webkit-backdrop-filter: blur(4.8px);
+opacity: 0.7;
+transition: 1s ease-in-out;
 }
 
 nav:hover{
+    opacity: 1;
     transition: 1s ease-in-out;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 }
@@ -70,7 +137,7 @@ a:visited{
 
 a:hover{
 				text-decoration: underline 3px;
-				text-decoration-color: black;
+				text-decoration-color: aqua;
 				transition: 1.2s ease-in-out;
 }
 
@@ -89,7 +156,7 @@ input:after{
     left: 0;
     right:0;
     bottom: 0;
-    background-color:white;
+    background-color: black;
     transition:all .5s ease-in-out
 }
 
@@ -100,28 +167,24 @@ input:before{
     bottom:2rem;
     left:0;
     right:0;
-    background-color:white;
+    background-color:black;
     transition:all .5s ease-in-out;
 }
 
 input:checked:before{
     transform:rotate(45deg) translate(10px,12px);
-    background-color:black;
+    background-color:red;
 }
 
 input:checked:after{
     transform:rotate(-45deg) translate(10px,-12px);
-    background-color:black;
+    background-color:red;
 }
 
 /*style*/
 
-#landing{
-				background-image: url("../images/back.jpg");
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-attachment: fixed;
-				opacity: 0.8;
+#portfolio-link:hover{
+    font-size: 18px;
 }
 
 #social-links-container{
@@ -130,15 +193,15 @@ input:checked:after{
 }
 
 #social-links{
-				font-size: 25px;
+				font-size: 30px;
 				transition: 1s ease-in-out;
-				color: black;
+				color: white;
                 
 }
 
 #social-links:hover{
-				color: white;
-				background-color: black;
+                font-size: 35px;
+                text-shadow: 6px 12px 9px black;
 				border-radius: 3px;
 				
 }
@@ -150,8 +213,32 @@ input:checked:after{
 
 
 /*text edit*/
-#landing-text{
-             padding: 18%;
+.logo:hover{
+     font-size: 30px;
+     text-decoration-color: aqua;
+}
+
+.landing-heading{
+    font-family: Georgia;
+    padding: 5;
+    text-shadow: 0px -12px 9px black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    width: 80%;
+  position: relative;
+  left: 10%;
+  z-index: 1;
+  transition: 1s ease-in-out;
+
+}
+
+.landing-heading:hover{
+    font-size: 45px;
+    transition: 1s ease-in-out;
 }
 
 .heading{
@@ -175,7 +262,6 @@ input:checked:after{
 				color: aqua;
 }
 
-
 /*text-motion*/
 #text-motion{
     line-height:1.5;
@@ -184,7 +270,7 @@ input:checked:after{
     font-size: 25px;
     gap: 10px ;
     display:inline-block;
-    animation:move 4s ease-in-out infinite;
+    animation:move 3s ease-in-out infinite;
 }
 @keyframes move{
     0%{
@@ -206,6 +292,7 @@ input:checked:after{
     z-index: -1;
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    opacity: 0.8;
 }
 
 /* timeline */
