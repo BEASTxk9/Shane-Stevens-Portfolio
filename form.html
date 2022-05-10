@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <a href="index.html">Home</a>
+</div>
+
+    <!-- form -->
+<div class="form text-start">
+    <div class="container-fluid w-75 mx-auto text-white">
+       <h2 class="display-2 text-center text-info">Lets get in Contact!?</h2>
+       <form action="https://formspree.io/f/xayvpewl" method="post">
+   
+           <!-- name -->
+   
+           <div class="row my-2">
+               <Label for="name" class="col-2 col-form-label-lg text-info">Name:</Label>
+               <div class="col-8">
+                   <input id="name" name="name" type="text" placeholder="Enter your Name" class="form-control">
+               </div>
+           </div>
+   
+           <!-- surname -->
+   
+           <div class="row my-2">
+               <Label for="surname" class="col-2 col-form-label-lg text-info">Surname:</Label>
+               <div class="col-8">
+                   <input id="name" name="name" type="text" placeholder="Enter your Surname" class="form-control">
+               </div>
+           </div>
+   
+           <!-- email -->
+           <div class="row my-2">
+               <Label for="age" class="col-2 col-form-label-lg text-info">Email:</Label>
+               <div class="col-8">
+                   <input id="email" name="email" type="text" placeholder="Enter your Email" class="form-control">
+               </div>
+           </div>
+   
+           <!-- subject -->
+           <div class="row my-2">
+               <label for="subject" class="col-md-2 col-form-label-lg text-info">Subject</label>
+               <div class="col-8">
+                   <select name="subject" id="suject" class="form-select">
+                       <option value="html5" selected>HTML5</option>
+                       <option value="css3" selected>CSS3</option>
+                       <option value="javascript">Javascript</option>
+                       <option value="bottstrap">Bootstrap</option>
+                   </select>
+                </div>
+            </div>
+
+ <!-- gender -->
+ <div class="row my-2">
+    <label for="gender" class="col md-2 col-form-label-lg text-info">Gender:</label>
+    <div class="col-8">
+        <span class="ms-3">Male</span> <input type="radio" name="subject" id="subject">
+        <span class="ms-3">Female</span> <input type="radio" name="subject" id="subject">
+    </div>
+</div>
+
+            <!-- message -->
+            <div class="row my-2">
+                <label for="message" class="col-md-2 col-form-label-lg text-info">Message: </label>
+                <div class="col-8 form-floating">
+                    <textarea name="message" id="message" class="h-100 w-100">
+                    </textarea>
+                </div>
+            </div>
+            <!-- button -->
+            <div class="row my-2">
+                <label class="col-md-2 col-form-label-lg"></label>
+                <div class="col-8">
+                    <input type="submit" value="Submit"
+                    class="btn btn-info w-100">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
