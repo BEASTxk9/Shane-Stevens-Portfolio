@@ -26,12 +26,14 @@ html{
 
 header{
     z-index: 10 !important;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 main{
     z-index: -1;
-    font-family: 'Domine', serif;
-    font-size: 19px;
+    /* font-family: 'Domine', serif; */
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
 }
 
 /*sections*/
@@ -331,7 +333,8 @@ input:checked:after{
 
 .heading{
 				text-align: center;
-                font-family: 'Oleo Script', cursive;
+                /* font-family: 'Oleo Script', cursive; */
+                font-family: 'IBM Plex Mono', monospace;
 				font-weight: bold;
 				font-size: 40px;
 				border-bottom: 3px black solid;
@@ -342,7 +345,8 @@ input:checked:after{
 }
 
 .sub-heading{
-				font-family: Georgia;
+				/* font-family: Georgia; */
+                font-family: 'IBM Plex Mono', monospace;
 				font-weight: bold;
 }
 
@@ -353,9 +357,10 @@ input:checked:after{
 /*text-motion*/
 #text-motion{
     line-height:1.5;
+
 }
 #text-motion span{
-    font-size: 25px;
+    font-size: 40px;
     gap: 10px ;
     display:inline-block;
     animation:move 3s ease-in-out infinite;
@@ -369,6 +374,7 @@ input:checked:after{
     50%{
         color: black;
         text-shadow: 6px 12px 9px black;
+        font-family: 'IBM Plex Mono', monospace;
     }
     100%{
         color: transparent;
