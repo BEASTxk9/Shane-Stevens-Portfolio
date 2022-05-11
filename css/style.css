@@ -232,6 +232,7 @@ input:checked:after{
     width: 40%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     transition: 1s ease-in-out;
+    opacity: 0.8;
 }
 
 .projects-container img {
@@ -241,6 +242,8 @@ input:checked:after{
 }
 
 .projectimg:hover{
+    opacity: 1;
+    background-color: blue;
     width: 50%;
     box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
     transition: 1s ease-in-out;
