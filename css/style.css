@@ -149,6 +149,16 @@ a:hover{
 				transition: 1.2s ease-in-out;
 }
 
+.logo{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.logo:hover{
+    font-size: 30px;
+    text-decoration-color: aqua;
+    color: aqua;
+}
+
 /*nav button*/
 input{
     width:45px;
@@ -363,10 +373,6 @@ input:checked:after{
 
 
 /*text edit*/
-.logo:hover{
-     font-size: 30px;
-     text-decoration-color: aqua;
-}
 
 .landing-heading{
     font-size: 80px ;
