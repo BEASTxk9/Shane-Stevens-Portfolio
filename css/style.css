@@ -266,7 +266,7 @@ input:checked:after{
     box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
 }
 
-#card-img-left{
+#card-img-left1{
     margin-left: 48%;
     margin-top: 1rem;
     height: 80%;
@@ -274,8 +274,24 @@ input:checked:after{
     border-radius: 20px;
 }
 
-#card-img-right{
+#card-img-right1{
     margin-left: 1rem;
+    margin-top: 1rem;
+    height: 30%;
+    width: 33%;
+    border-radius: 20px;
+}
+
+#card-img-left2{
+    margin-left: 48%;
+    margin-top: 1rem;
+    height: 80%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#card-img-right2{
+    margin-left: 48%;
     margin-top: 1rem;
     height: 80%;
     width: 50%;
