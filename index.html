@@ -83,10 +83,6 @@
 				<input type="checkbox">
 			</button>
 
-
-
-
-
 			<!-- button content -->
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
@@ -118,13 +114,13 @@
 				<div class="row">
 					<!-- left -->
 					<div class="col-md-4" data-aos="fade-down" data-aos-easing="ease-out-cubic"
-						data-aos-duration="2000">
+						data-aos-duration="1000">
 						<img id="me3" src="./images/IMG-20220502-WA0013.jpg" width="100%"></img>
 					</div>
 
 					<!-- right -->
 					<div class="col-md-8 h4" data-aos="fade-up" data-aos-easing="ease-out-cubic"
-						data-aos-duration="2000">
+						data-aos-duration="1000">
 
 
 
@@ -188,7 +184,7 @@
 							<!-- row2 -->
 							<div class="row">
 								<div class="col-md-4">
-									<span class="badge badge-info text-black">NAVIGATIONAL SKILLS</span>
+									<span class="badge badge-info text-black"><i class="fa-solid fa-location-dot"></i>NAVIGATIONAL SKILLS</span>
 									<div class="progress">
 										<div class="progress-bar w-100 progress-bar-striped progress-bar-animated">
 										</div>
@@ -539,8 +535,18 @@
 	<footer>
 		<!-- contact -->
 		<section id="contact" class="bg-white text-black py-1">
-			<a class="text-black h4" href="#landing"><i class="fa-solid fa-house"></i></a>
-			<a class="text-black h4" href="#testimonials"><i class="fa-solid fa-arrow-up-wide-short"></i></a>
+			<a id="contact-nav" class="h4" href="#landing"><i class="fa-solid fa-house"></i></a>
+
+			<a id="contact-nav" class="h4" href="#about"><i class="fa-solid fa-address-card"></i></a>
+
+			<a id="contact-nav" class="h4" href="#resume"><i class="fa-solid fa-book"></i></a>
+
+			<a id="contact-nav" class="h4" href="#project">p</a>
+
+			<a id="contact-nav" class="h4" href="#testimonials"><i class="fa-solid fa-user-graduate"></i></a>
+
+			<a id="contact-nav" class="h4" href="#contact">c</a>
+			
 			<h2 class="heading" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Lets Get In
 				Contact.</h2>
 			<!-- form -->
@@ -551,8 +557,8 @@
 						<!-- name -->
 
 						<div class="row my-2">
-							<Label for="name" class="col-2 col-form-label-lg text-black">Name:</Label>
-							<div class="col-8">
+							<Label for="name" class="col-sm-2 col-form-label-lg text-black">Name:</Label>
+							<div class="col-sm-8">
 								<input id="name" name="name" type="text" placeholder="Enter your Name"
 									class="form-control">
 							</div>
@@ -561,26 +567,26 @@
 						<!-- surname -->
 
 						<div class="row my-2">
-							<Label for="surname" class="col-2 col-form-label-lg text-black">Surname:</Label>
-							<div class="col-8">
+							<Label for="surname" class="col-sm-2 col-form-label-lg text-black">Surname:</Label>
+							<div class="col-sm-8">
 								<input id="name" name="name" type="text" placeholder="Enter your Surname"
 									class="form-control">
 							</div>
 						</div>
 
 						<!-- email -->
-						<div class="row my-2">
-							<Label for="age" class="col-2 col-form-label-lg text-black">Email:</Label>
-							<div class="col-8">
+						<div class="row my-sm-2">
+							<Label for="age" class="col-sm-2 col-form-label-lg text-black">Email:</Label>
+							<div class="col-sm-8">
 								<input id="email" name="email" type="text" placeholder="Enter your Email"
 									class="form-control">
 							</div>
 						</div>
 
 						<!-- subject -->
-						<div class="row my-2">
-							<label for="subject" class="col-md-2 col-form-label-lg text-black">Subject</label>
-							<div class="col-8">
+						<div class="row my-sm-2">
+							<label for="subject" class="col-sm-2 col-form-label-lg text-black">Subject</label>
+							<div class="col-sm-8">
 								<select name="subject" id="suject" class="form-select">
 									<option value="html5" selected>HTML5</option>
 									<option value="css3" selected>CSS3</option>
@@ -592,8 +598,8 @@
 
 						<!-- gender -->
 						<div class="row my-2">
-							<label for="gender" class="col md-2 col-form-label-lg text-black">Gender:</label>
-							<div class="col-10">
+							<label for="gender" class="col-sm-2 col-form-label-lg text-black">Gender:</label>
+							<div class="col-sm-10">
 								<span class="px-5 text-black">Male:</span> <input type="radio" name="subject"
 									id="subject">
 								<span class="px-5 text-black">Female:</span> <input type="radio" name="subject"
@@ -602,17 +608,17 @@
 						</div>
 
 						<!-- message -->
-						<div class="row my-2">
+						<div class="row my-sm-2">
 							<label for="message" class="col-md-2 col-form-label-lg text-black">Message: </label>
-							<div class="col-8 form-floating">
+							<div class="col-sm-8 form-floating">
 								<textarea name="message" id="message" class="h-100 w-100">
                     </textarea>
 							</div>
 						</div>
 						<!-- button -->
-						<div class="row my-2">
+						<div class="row my-sm-2">
 							<label class="col-md-2 col-form-label-lg btn-black text-white"></label>
-							<div class="col-8">
+							<div class="col-sm-8">
 								<input  type="submit" value="Submit" class="btn btn-black w-100 text-info">
 							</div>
 						</div>

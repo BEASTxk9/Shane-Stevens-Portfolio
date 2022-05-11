@@ -325,6 +325,11 @@ input:checked:after{
     border-radius: 360px;
 }
 
+#contact-nav:hover{
+    color: aqua;
+    background-color: black;
+}
+
 
 
 /*style*/
