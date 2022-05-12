@@ -480,7 +480,7 @@ input:checked:after{
 /* scroll */
 /* width */
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 100%;
     background-color: transparent;
   }
   /* Track */
