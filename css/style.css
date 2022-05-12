@@ -104,9 +104,8 @@ footer{
     transition:all 1s ease-in-out;
     transform: translateX(0px) translateY(-10px);
     box-shadow: 10px 10px 26px rgba(0, 0, 0, 1);
-    color: antiquewhite;
-    background-color: black;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: aqua;
 }
 
 .typewriter-text{
