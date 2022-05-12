@@ -306,6 +306,7 @@ input:checked:after{
     height: 30%;
     width: 33%;
     border-radius: 20px;
+    padding-bottom: 55px;
 }
 
 #card-img-left2{
@@ -317,11 +318,11 @@ input:checked:after{
 }
 
 #card-img-right2{
-    padding-bottom: 52px;
-    margin-left: 48%;
+    padding-bottom: 42px;
+    margin-left: 1rem;
     margin-top: 1rem;
-    height: 80%;
-    width: 50%;
+    height: 30%;
+    width: 33%;
     border-radius: 20px;
 }
 
