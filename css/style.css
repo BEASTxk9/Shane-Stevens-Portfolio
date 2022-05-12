@@ -452,7 +452,7 @@ input:checked:after{
         transform:translateX(0%);
     }
     50%{
-        color: black;
+        color: white;
         text-shadow: 6px 12px 9px black;
         font-family: 'IBM Plex Mono', monospace;
     }
