@@ -347,8 +347,8 @@ input:checked:after{
 }
 
 #contact-icons:hover{
-    box-shadow: 1px 4px 23px 15px rgba(34, 142, 128, 0.8);
-    border-radius: 360px;
+    text-shadow: 8px -5px 6px rgba(16, 218, 245, 1);
+    color: black;
 }
 
 #contact-nav{
