@@ -93,6 +93,7 @@ main{
 	border: solid #fff 2px;
 	margin-top: 25px;
 	opacity: 0.7;
+    background-color: antiquewhite;
 }
 
 .btn:hover {
@@ -445,3 +446,22 @@ input:checked:after{
     opacity: 1;
 }
 
+/* scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 500px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: aqua;
+  }
