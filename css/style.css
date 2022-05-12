@@ -93,7 +93,7 @@ main{
 	border: solid #fff 2px;
 	margin-top: 25px;
 	opacity: 0.7;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .btn:hover {
@@ -112,7 +112,19 @@ main{
 /* about */
 #about{
     z-index: -1;
+    font-size: 20px;
 }
+
+.cv{
+    display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 5px;
+	border: solid #fff 2px;
+	margin-top: 25px;
+    background-color: black;
+}
+
 
 /*nav*/
 nav{
@@ -339,9 +351,8 @@ input:checked:after{
     border-radius: 360px;
 }
 
-#contact-nav:hover{
-    color: aqua;
-    background-color: black;
+#contact-nav{
+    color: rgb(0, 145, 255);
 }
 
 
