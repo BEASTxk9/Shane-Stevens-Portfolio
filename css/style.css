@@ -479,7 +479,7 @@ input:checked:after{
 /* scroll */
 /* width */
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 15px;
     background-color: rgba(50, 31, 31, 0.704);
   }
   /* Track */
