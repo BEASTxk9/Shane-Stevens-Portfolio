@@ -529,6 +529,11 @@ font-size: 70px;
     #contact-card-container{
         width: 50%;
             }
+
+            #landing-link{
+                font-size: 30px;
+            }
+
 }
 
 @media all and (max-width: 1500px) {
@@ -567,6 +572,10 @@ font-size: 17px;
         font-size: 18px;
     }
 
+    #landing-sub2{
+        font-size: 18px;
+    }
+
     .typewriter-container{
         height: 100%;
     }
@@ -581,6 +590,10 @@ font-size: 17px;
 
     .projectimg{
         width: 100%;
+    }
+
+    #landing-link{
+        font-size: 15px;
     }
 
 }
