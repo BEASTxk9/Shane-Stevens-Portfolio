@@ -456,9 +456,8 @@ width: 100%;
 
 .heading-underline{
     border-bottom: 3px black solid;
-    width: 80%;
+    width: 100%;
   position: relative;
-  left: 10%;
   z-index: 1;
 }
 
