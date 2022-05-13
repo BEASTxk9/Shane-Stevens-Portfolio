@@ -122,6 +122,12 @@ footer{
 	border-radius: 5px;
 	border: solid #fff 2px;
 	margin-top: 25px;
+    background-color: white;
+    border: 1px black solid;
+    transition: all 1s ease-in-out;
+}
+
+.cv:hover{
     background-color: black;
 }
 
