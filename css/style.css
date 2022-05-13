@@ -574,4 +574,8 @@ font-size: 17px;
     #other-links{
         width: 95%;
     }
+
+    .heading{
+        padding-top: 4rem;
+    }
 }
