@@ -189,45 +189,7 @@ a:hover {
     background-color: rgb(78, 68, 68);
 }
 
-/*nav button*/
-input {
-    width: 45px;
-    height: 45px;
-    -webkit-appearance: none;
-    position: relative;
-}
 
-input:after {
-    content: "";
-    position: absolute;
-    top: 2rem;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    transition: all .5s ease-in-out
-}
-
-input:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 2rem;
-    left: 0;
-    right: 0;
-    background-color: black;
-    transition: all .5s ease-in-out;
-}
-
-input:checked:before {
-    transform: rotate(45deg) translate(10px, 12px);
-    background-color: red;
-}
-
-input:checked:after {
-    transform: rotate(-45deg) translate(10px, -12px);
-    background-color: red;
-}
 
 /* .navspin */
 
@@ -427,6 +389,46 @@ input:checked:after {
 
 #contact-nav {
     color: rgb(0, 145, 255);
+}
+
+/* checkbox */
+input {
+    width: 45px;
+    height: 45px;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+input:after {
+    content: "";
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    transition: all .5s ease-in-out
+}
+
+input:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    background-color: black;
+    transition: all .5s ease-in-out;
+}
+
+input:checked:before {
+    transform: rotate(45deg) translate(10px, 12px);
+    background-color: red;
+}
+
+input:checked:after {
+    transform: rotate(-45deg) translate(10px, -12px);
+    background-color: red;
 }
 
 
