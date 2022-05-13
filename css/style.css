@@ -111,29 +111,6 @@ footer {
     text-decoration-color: aqua;
 }
 
-/* sub-heading spin */
-.waviy2 {
-    position: relative;
-}
-
-.waviy2 span {
-    position: relative;
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    text-transform: uppercase;
-    animation: flip 3s ease-in-out infinite;
-    animation-delay: calc(.3s * var(--i))
-}
-
-@keyframes flip {
-
-    0%,
-    80% {
-        transform: rotateY(360deg)
-    }
-}
-
 /* about */
 #about {
     z-index: -1;
