@@ -119,6 +119,8 @@ footer {
 }
 
 .cv {
+    position: relative;
+    left: 3%;
     display: inline-block;
     padding: 10px 30px;
     border-radius: 5px;
