@@ -561,6 +561,7 @@ Handle on hover */ ::-webkit-scrollbar-thumb:hover {
 
 /* @media */
 
+/* larger screen */
 @media all and (max-width:2560px) {
     .typewriter-text {
         font-size: 70px;
@@ -579,7 +580,7 @@ Handle on hover */ ::-webkit-scrollbar-thumb:hover {
     }
 
 }
-
+/* semi-large screen */
 @media all and (max-width: 1500px) {
     .typewriter-text {
         font-size: 40px;
@@ -590,7 +591,7 @@ Handle on hover */ ::-webkit-scrollbar-thumb:hover {
     }
 
 }
-
+/* medium screen */
 @media all and (max-width: 1200px) {
     #contact-card-container {
         width: 100%;
@@ -607,7 +608,7 @@ Handle on hover */ ::-webkit-scrollbar-thumb:hover {
 
 
 }
-
+/* small screen */
 @media all and (max-width: 500px) {
     .typewriter-text {
         font-size: 17px;
