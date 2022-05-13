@@ -119,11 +119,14 @@ footer{
 .cv{
     display: inline-block;
 	padding: 10px 30px;
-	color: white;
 	border-radius: 5px;
 	border: solid #fff 2px;
 	margin-top: 25px;
     background-color: black;
+}
+
+#cv-link:hover{
+    color: white;
 }
 
 
