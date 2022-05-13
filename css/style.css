@@ -109,10 +109,6 @@ footer{
     text-decoration-color: aqua;
 }
 
-.typewriter-text{
-    font-size: 70px;
-}
-
 /* about */
 #about{
     z-index: -1;
@@ -398,19 +394,6 @@ input:checked:after{
     color: rgb(0, 145, 255);
 }
 
-@media all and (max-width:2560px) {
-    #contact-card-container{
-width: 50%;
-    }
-}
-
-@media all and (max-width: 1200px) {
-    #contact-card-container{
-width: 100%;
-    }
-}
-
-
 
 /*style*/
 
@@ -477,7 +460,6 @@ width: 100%;
 
 }
 #text-motion span{
-    font-size: 40px;
     gap: 10px ;
     display:inline-block;
     animation:move 3s ease-in-out infinite;
@@ -516,20 +498,74 @@ width: 100%;
 
 /* scroll */
 /* width */
-/* ::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     width: 100%;
     background-color: transparent;
-  } */
-  /* Track */
-  /* ::-webkit-scrollbar-track {
+  } 
+ Track 
+   ::-webkit-scrollbar-track {
     background: transparent;
-  } */
-  /* Handle */
-  /* ::-webkit-scrollbar-thumb {
+  } 
+   Handle 
+   ::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 500px;
-  } */
-  /* Handle on hover */
-  /* ::-webkit-scrollbar-thumb:hover {
+  } 
+  Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
     background: aqua;
-  } */
+  } 
+
+  /* @media */
+
+  @media all and (max-width:2560px) {
+    .typewriter-text{
+font-size: 70px;
+    }
+            .landing-sub{
+                font-size: 40px;
+            }
+
+    #contact-card-container{
+        width: 50%;
+            }
+}
+
+@media all and (max-width: 1500px) {
+    .typewriter-text{
+font-size: 40px;
+    }
+
+    .landing-sub{
+        font-size: 38px;
+    }
+
+}
+
+@media all and (max-width: 1200px) {
+    #contact-card-container{
+width: 100%;
+    }
+
+    .typewriter-text{
+        font-size: 30px;
+            }
+            .landing-sub{
+                font-size: 28px;
+            }
+
+}
+
+@media all and (max-width: 500px) {
+    .typewriter-text{
+font-size: 17px;
+    }
+
+    .landing-sub{
+        font-size: 18px;
+    }
+
+    .typewriter-container{
+        height: 100%;
+    }
+}
